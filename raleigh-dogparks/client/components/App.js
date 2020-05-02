@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     
     return (
-      <div>Hi</div>
+      <div>Hi:{process.env.REACT_APP_NOT_SECRET_CODE}</div>
     );
   }
 }
