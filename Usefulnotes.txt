@@ -1,0 +1,3 @@
+$ oc login
+
+$ oc new-project web-apps
