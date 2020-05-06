@@ -13,3 +13,8 @@ Now using project "test" on server "https://2886795375-6443-simba02.environments
 
 >oc expose service <service-name>
 
+
+Image Tagging:
+>docker images
+
+>docker tag <esistimage-name><exist-image-id> <NewName>:<Version>
