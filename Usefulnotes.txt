@@ -1,3 +1,15 @@
 $ oc login
 
 $ oc new-project web-apps
+
+>oc get projects (list out projects)
+
+>D:\ZestPrime\Material\CoreJava>oc project test
+Now using project "test" on server "https://2886795375-6443-simba02.environments.katacoda.com:443".
+
+>oc get svc
+
+>oc get route
+
+>oc expose service <service-name>
+
